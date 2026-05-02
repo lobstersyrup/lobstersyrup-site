@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lobstersyrup</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+  <header class="site-header">
+    <h1 class="logo"><a href="index.html">LOBSTER<br>SYRUP</a></h1>
+    <p class="tagline">~ a personal dev lab ~</p>
+    <svg class="squiggle" viewBox="0 0 150 14">
+      <path d="M2,7 Q20,0 38,7 Q56,14 75,7 Q94,0 112,7 Q130,14 148,7"/>
+    </svg>
+    <nav class="site-nav">
+      <a href="index.html" class="active">home</a>
+      <a href="about.html">about</a>
+      <a href="https://github.com/lobstersyrup">github</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2 class="panel-heading">Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Kokoro TTS</h3>
+          <p class="meta">FastAPI server · 54 voices · 18 locales</p>
+          <p>Local text-to-speech server wrapped in FastAPI. Runs kokoro under the hood with multi-voice support.</p>
+          <div class="tags">
+            <span>Python</span> <span>FastAPI</span> <span>TTS</span> <span>ML</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Whisper STT</h3>
+          <p class="meta">FastAPI server · OpenAI-compatible endpoint</p>
+          <p>Local speech-to-text with Whisper, served behind a FastAPI server with an OpenAI-compatible API.</p>
+          <div class="tags">
+            <span>Python</span> <span>FastAPI</span> <span>STT</span> <span>ML</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="stars">★ ★ ★</div>
+
+    <div class="speech">
+      <p style="font-size:1.25rem;color:#444;text-align:center">
+        writing about LLMs, knowledge graphs &amp; self-hosted ML — coming soon
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 lobstersyrup</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
