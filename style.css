@@ -147,10 +147,13 @@ body {
 }
 
 .project-card {
+  display: block;
   border: 3px solid var(--ink);
   padding: 1.25rem;
   box-shadow: 3px 3px 0 rgba(0,0,0,0.05);
   transition: box-shadow 0.1s, transform 0.1s;
+  text-decoration: none;
+  color: inherit;
 }
 
 .project-card:hover {
